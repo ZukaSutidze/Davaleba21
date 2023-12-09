@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fraunces" , 'Barlow';
+}
+
+.Parent{
+    overflow-x: hidden;
+    position: relative;
+    width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Forpictures{
+    margin-top: 34px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 148px;
+}
+
+.Aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 41px;
+    border-radius: 10px;
+    background: #A2A2A2;
+    width: 327px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-image: url(Assets/Mobile/AboutCoffee.svg);
+}
+
+.About{
+    margin-top: 111px;
+    width: 279px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+.Coffeeroasters{
+    margin-top: 24px;
+    width: 279px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.8;
+}
+
+.ayarvicisaxeli{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ManwithCoffee{
+    background: lightgray 0px 0px / 100% 100% no-repeat;
+    border-radius: 10px;
+}
+
+.commitment{
+    width: 327px;
+    margin-top: 48px;
+    color: #333D4B;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.mission{
+    margin-top: 30px;
+    width: 327px;
+    color: #333D4B;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.Blackbox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 198px;
+    width: 327px;
+    height: 509px;
+    background-color: #2C343E;
+    border-radius: 10px;
+}
+
+.Darkcoffee{
+    position: absolute;
+    left: 25px;
+    top: -78px;
+}
+
+.Uncompromising{
+    margin-top: 142px;
+    width: 279px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 28px; 
+}
+
+.Although{
+    margin-top: 24px;
+    width: 279px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; 
+    opacity: 0.8;
+}
+
+.Countries{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.qveynebi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.United{
+    margin-top: 48px;
+    color: #333D4B;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; 
+    margin-bottom: 22px;
+}
+
+.Status{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.Status p{
+    color: #333D4B;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.pirveli{
+    margin-top: 72px;
+}
+
+.meore{
+    margin-top: 80px;
+}
+
+.Lastdiv{
+    margin-top: 120px;
+    margin-bottom: 72px;
+    width: 327px;
+    height: 346px;
+    background: #2C343E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Arefs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24px;
+    margin-top: 48px;
+}
+
+.Lastimg{
+    margin-top: 54px;
+}
+
+.Icons{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+}
+
+.lastp{
+    text-decoration: none;
+    color: #83888F;
+    font-family: "Barlow";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.Burgermenu{
+    top: 0px;
+    left: 375px;
+    z-index: 10;
+    position: absolute;
+    width: 385px;
+    height: 667px;
+    background: #FEFCF7;
+}
+
+.margin1{
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.Forpicture{
+    opacity: 0.3;
+    margin-top: 40px;
+    margin-left: 24px;
+    width: 327px;
+    height: 500px;
+    background-image: url(Assets/Mobile/CoffeePhoto.svg);
+}
+
+.fortext{
+    margin-top: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+}
+
+.fortext a{
+    text-decoration: none;
+    color: #333D4B;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px; 
+}
+
+.active{
+    transform: translatex(-103%);
+    transition: all 2s;
+}
+
+.active2{
+    transform: translatex(0%);
+    transition: all 2s;
+}
+
+

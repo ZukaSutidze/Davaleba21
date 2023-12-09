@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fraunces" , 'Barlow';
+}
+
+.Parent{  
+    overflow-x: hidden;
+    position: relative;
+    width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Forpictures{
+  margin-top: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 148px;
+}
+
+.Coffee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    width: 327px;
+    height: 500px;
+    background-image: url(Assets/Mobile/CoffeePhoto.svg);
+    background-repeat: no-repeat;
+}
+
+.Great{
+    margin-top: 100px;
+    width: 274px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces" ;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px; 
+}
+
+.Start{
+    width: 279px;
+    margin-top: 24px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; 
+    opacity: 0.8;
+}
+
+.Create{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    margin-top: 40px;
+    width: 217px;
+    height: 56px;
+    border-radius: 6px;
+    background: #0E8784;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; 
+}
+
+.Our{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.Box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Gran{
+    margin-top: 13px;
+}
+
+.Planto , .Piccollo , .Danche{
+  margin-top: 48px;
+}
+
+.Espresso{
+    margin-top: 24px;
+    color: #333D4B;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px; 
+}
+
+.Light{
+    margin-top: 16px;
+    width: 282px;
+    color: #333D4B;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+
+.Why{
+    position: relative;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 327px;
+    height: 902px;
+    background-image: url(Assets/Mobile/chooseus.svg);
+}
+
+.choose{
+    margin-top: 64px;
+    width: 279px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px; 
+}
+
+.large{
+    margin-top: 24px;
+    width: 279px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    opacity: 0.8;
+}
+
+.Greenboxes{
+    position: absolute;
+    top:305px
+}
+
+.Greenbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 279px;
+    height: 382px;
+    border-radius: 8px;
+    background: #0E8784;
+}
+
+.Bean{
+    margin-top: 72px;
+}
+
+.quality{
+    margin-top: 56px;
+    width: 255px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px; 
+}
+
+.benefits{
+    margin-top: 24px;
+}
+
+.Discover{
+    opacity: 0.6;
+    margin-top: 24px;
+    width: 212px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.Howitworks{
+    margin-top: 717px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Numbers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one{
+    margin-top: 80px;
+}
+
+.two{
+    margin-top: 56px;
+}
+
+.Pick{
+    margin-top: 24px;
+    width: 327px;
+    color: #333D4B;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.Select{
+    margin-top: 24px;
+    width: 327px;
+    color: #333D4B;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.Create2{
+    margin-top: 80px;
+}
+
+.Lastdiv{
+    margin-top: 120px;
+    margin-bottom: 72px;
+    width: 327px;
+    height: 346px;
+    background: #2C343E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Arefs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24px;
+    margin-top: 48px;
+}
+
+.Lastimg{
+    margin-top: 54px;
+}
+
+.Icons{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+}
+
+.lastp{
+    text-decoration: none;
+    color: #83888F;
+    font-family: "Barlow";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.Burgermenu{
+    top: 0px;
+    left: 375px;
+    z-index: 10;
+    position: absolute;
+    width: 385px;
+    height: 667px;
+    background: #FEFCF7;
+}
+
+.margin1{
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.Forpicture{
+    opacity: 0.3;
+    margin-top: 40px;
+    margin-left: 24px;
+    width: 327px;
+    height: 500px;
+    background-image: url(Assets/Mobile/CoffeePhoto.svg);
+}
+
+.fortext{
+    margin-top: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+}
+
+.fortext a{
+    text-decoration: none;
+    color: #333D4B;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px; 
+}
+
+.active{
+    transform: translatex(-103%);
+    transition: all 2s;
+}
+
+.active2{
+    transform: translatex(0%);
+    transition: all 2s;
+}
+
